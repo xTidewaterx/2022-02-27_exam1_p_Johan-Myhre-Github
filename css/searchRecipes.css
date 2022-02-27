@@ -11,6 +11,7 @@
 .searchBarContainer {
 
     background-color: rgb(233, 233, 233);
+    padding: 10px;
 }
 
 .searchIcon {
