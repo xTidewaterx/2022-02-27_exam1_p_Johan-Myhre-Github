@@ -186,6 +186,19 @@ h2 {
   
 }
 
+.endOfMain {
+
+height: 7px;
+width: 80%;
+display: flex;
+margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+margin-top: 40px;
+margin-bottom: 40px;
+background-color: #1e4935;
+
+}
 p.recipeDetail {
 
 
