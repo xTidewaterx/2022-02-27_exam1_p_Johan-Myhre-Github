@@ -1,0 +1,65 @@
+#aboutImg {
+
+   width: 15vw;
+    min-width: 300px;
+    max-width: 400px;
+    
+
+    position: sticky;
+    shape-outside: inset(20px 5px 30px 10px round 50px);
+    float: right;
+    shape-outside: circle(50%);
+    right: 0;
+
+    shape-outside: circle(36.68% at 190px 214px);
+
+    shape-outside: circle(41.3% at 292px 251px);
+    right: 0;
+    margin: 100px;
+    border-radius: 50%;
+    min-height: 300px;
+
+     /*border radius made our circular margin function well with our rounded corners adapting*/
+  
+
+}
+
+.aboutContainer {
+
+
+    margin: 0 auto;
+    
+}
+
+p.aboutP {
+
+    margin-top: 100px;
+  
+    max-width: 700px;
+ 
+}
+
+
+.aboutP {
+    width: 40vw;
+    max-width: 600px;
+  
+  margin: 0 auto;
+
+  text-align: left;
+  
+}
+
+h1.aboutUs {
+
+    background-color: beige;
+
+    padding: 100px;
+    margin-top: 0px;
+}
+
+
+
+/*make the margin function with the text, backwards pull
+
+use the same length units, clean up anything that goes out of it's containers*/

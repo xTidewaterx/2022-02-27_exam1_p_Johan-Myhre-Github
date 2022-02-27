@@ -1,0 +1,213 @@
+
+
+
+* {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.searchBarContainer {
+
+    background-color: rgb(233, 233, 233);
+}
+
+.searchIcon {
+
+    width: 300px;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+    border: rgb(65, 119, 60) solid 8px;
+    border-radius: 8%;
+  background-color:   #e5e5e5;
+    margin-bottom: 30px;
+    
+}
+input :click {
+
+    color: brown;
+}
+
+.searchIcon:hover {
+
+    box-shadow: 0px 5px 0px 10px rgb(224, 222, 182);
+
+    
+}
+
+
+
+svg.iconify {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+
+.searchContainer {
+
+    width: auto;
+     height: auto;
+     background-color: rgb(68, 119, 72) ;
+  
+    position: relative;
+   display: flex;
+   
+     text-align: center;
+
+  
+     justify-content: center;
+
+
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  min-width: 300px;
+  min-height: 600px;
+   
+  padding-bottom: 100px;
+  border-radius: 5%;
+  margin-bottom: 200px;
+    
+}  /*each container is unique, we now have the container being named searchcontainer, yet we have the same h1 across*/
+
+
+.loadingSearch {
+
+  margin-left: 10vw;
+  margin-top: 100px;
+
+    
+}
+
+
+
+input {
+
+  
+ 
+    margin-bottom: 0;
+
+    height: 90px;
+
+    display: flex;
+    margin: 0 auto;
+     margin-bottom: 100px;
+     border: none;
+     outline: 0;
+     background-color: #e5e5e5;;
+}
+
+.card:nth-child(1) {display: none;}
+
+
+
+
+/*trying to make an equal tag that saves us codes, gives the page a unifrom look, the way all is even*/
+
+h1 {    font-size: 25px;
+color: black;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+line-height: 150px;
+text-align: center;}
+
+
+
+h2 {
+
+    font-size: 25px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-wrap:initial;
+    word-break: keep-all;
+      /*we keep all words, so readabilty is key, on fold they stay inside div and use another line if there is a problem*/
+      text-decoration: none;
+
+}
+
+
+
+
+.card {
+    
+    border-radius: 8%;
+ 
+     background-color: rgb(230, 230, 230);
+ 
+     bottom: 0px;
+     padding:  2%, ;
+     text-align: center;
+     max-width: 400px;
+     width: 30vw;
+     display: flexbox;  /*here we have the merge that allows us centered and vertical content*/
+     margin: 0 auto;
+   
+  
+ 
+   
+ 
+  
+     
+ 
+  
+  
+ }
+
+ a.card {
+
+    margin-top: 40px;
+    
+
+ 
+ }
+
+ img.recipe-images {
+
+    width: 90%;
+    margin-top: 15px;
+    border-radius: 5%;
+    
+ }
+
+ img.recipe-imagesFront {
+
+  width: 90%;
+  margin-top: 15px;
+  border-radius: 5%;
+  height: 400px;
+  
+}
+
+p.recipeDetail {
+
+
+
+ 
+ 
+   
+    border-radius: 10%;
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    bottom: 0;
+    word-wrap: break-word;
+    width: auto;
+    padding: 35px;
+  
+  /*we needed the width so it had something to center, when i blow it out of proeprtions i experience the centering with the usage of the entirety*/
+    
+}
+
+p {
+
+text-align: center;
+width: 100%;
+max-width: none;
+margin-bottom: 30px;
+}

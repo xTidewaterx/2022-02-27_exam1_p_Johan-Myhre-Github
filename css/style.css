@@ -1,0 +1,300 @@
+body 
+ {
+
+    min-height: 100vh;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto auto; /*with auto we split the space relative to the dimensions of objects, the fractions we have always make up all, so if we have one fraction that is all, that is our integer*/
+    margin: 0;
+
+    /*with this grid we have a website that expands to encompass whatver viewport there is, every grid container/item/ that is
+    link:: https://chrisbracco.com/css-sticky-footer-effect/*/
+    
+    
+
+
+}
+
+
+
+
+* {
+
+    font-family: 'Kumbh Sans', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Prompt', sans-serif;
+
+    font-family: 'PT Sans Caption', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif;
+
+
+        font-family: 'Kumbh Sans', sans-serif;
+
+    font-family: 'Noto Sans', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Prompt', sans-serif;
+
+    font-family: 'PT Sans Caption', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif;
+    
+    font-family: 'Noto Sans', sans-serif;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+header {
+
+   
+    background-color: #c5d6c1;
+    height: 100px;
+  
+
+}
+
+
+a {
+
+    color: black;
+    font-size: 20px;
+    text-decoration:none;
+ 
+}
+
+
+.logo {
+
+    width: 100px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+ label {
+     
+
+    float: right;
+    margin: 20px;
+ }
+
+
+ #hamburger-menu:checked ~ nav {
+
+    display:table;
+    position:sticky;
+    margin-top: 0px;
+    z-index: 1000;
+}
+
+nav {
+
+    display: none;
+    position: static;
+
+    float: right;
+    width: 100%;
+    top: 0;
+    
+}
+
+
+
+
+
+nav ul {
+
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+  
+
+
+}
+
+
+
+
+li {
+
+    padding: 0 5vw 0  0 ;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+#hamburger-menu {
+    display: none;
+
+    
+    /*this is to not have the checkbox visible, the input-type checkbox has an id*/
+
+}
+
+
+
+
+
+
+.active  {
+    
+    text-decoration: underline;}
+
+
+ 
+
+    .landingPageRecipe {
+
+       /* background-image: url(../images/DSC_14991011_1.jpg);*/
+      
+      
+        background-size:cover;
+       
+        margin: 0;
+        height: 30vh;
+        overflow: hidden;
+        min-height: 300px;
+        text-align: center;
+
+
+    }
+
+    .landingPageRecipe:hover {
+
+        border-radius: 3%;
+        box-shadow: -1px 1px 29px 36px rgba(149, 150, 141, 0.75);
+        filter: brightness(107%);
+    }
+
+
+   
+   
+
+    /*we make a h1 that is equal across all, saving additional code*/
+
+    h1 {
+
+    
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+
+    }
+
+    h2 {
+
+        text-align: center;
+      text-underline-offset: 20px;
+     
+      
+    }
+
+
+    .container {
+
+
+        grid-template-columns: 100px 1fr; /*this actually is great, this also:: auto 1fr 20%; */
+        display: grid;
+   
+        justify-content: center;
+        height: auto;
+        column-gap: 100px;
+      
+    }
+
+ 
+
+
+  .columns { 
+      background-color: brown;
+     
+    text-align: center;
+  
+    /*margin: 10%;---this margin made the columns not assigned with the 1fraction (given all remaining space, act differently altough they are without the margin the same, left with the other quality that is something else than fraction)*/ 
+    /*background-image: url(../images/DSC_14991011_1.jpg); */
+
+   
+    }
+
+  
+
+ .card2 {
+  
+     max-width: 300px;
+     margin: 0 auto;
+     margin-top: 20vh;
+     margin-bottom: 0;
+     background-color: rgb(228, 211, 192);
+     padding: 10px;
+ 
+     box-shadow: 10px 5px 5px rgb(196, 191, 168);
+     border-radius: 10%;
+     padding: 5%;
+     margin-bottom: 10px;
+     height: auto;
+     min-height: 350px;
+     position: relative;
+
+ 
+ }
+ img {
+  width: 100%;
+     height: 214px;
+     object-fit: cover;
+ }
+ .container2 {
+
+  
+    text-align: center;
+
+ }
+
+ /*
+ content, padding is space outside content, border is line outside padding, and margin the space outside the border*/
+
+ .tag {
+
+    padding: 4px 8px;
+    border: 1px solid rgb(153, 84, 84);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+ }
+
+ /*we have a card, the card has a container called card2 ---inside there we have contaienr that lie inside the card, yet underneath it's background-image, because of block, all content lies underneath, it is block-elements, output will stack verttically */
+
+
+
+
+p { 
+
+    max-width: 600px;
+    max-width: 60vw;
+}
+
+
+
+p.profile {border: none;}
+
+ footer {
+    margin-top: 5vh;
+    
+        position: relative;
+    text-align: center;
+    
+    background: linear-gradient(180deg, #ffffff 50%, #14cf78 50%);
+    padding-bottom: 3vh;
+    overflow: hidden;
+    
+    }
+    
+    /*here we have a gradual offset without any gradiant, it is cut directly */
+
+    

@@ -1,0 +1,205 @@
+
+
+
+/*placing the highest pixel-amount above the other settings gives us the hiearchy we need*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:800px){
+
+ 
+    
+    label {
+        display: none;
+    }
+
+    nav  { 
+    
+        display: block !important; /* //thisd overwrites it all */
+    
+    
+    }
+
+    .container {
+
+        grid-template-columns: auto auto auto;
+    }
+    
+    .columns {
+
+        min-width: 200px;
+    }
+
+    .cardContainer {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+    .container3 {
+
+        
+    display: grid;
+    grid-template-columns: 160px 160px 160px 160px;
+    }
+
+    ul {
+
+        margin-top: 25px;
+        
+    }
+
+    
+}
+    
+
+
+
+
+
+
+    @media (max-width:800px){
+
+        nav ul {
+    
+            display:list-item;
+            list-style: none;
+         
+    
+        }
+
+
+        
+li {
+
+    margin: 20px;
+}
+ul {
+
+    background-color: #bfe0d1;
+    height: 200px;
+    border-radius: 10%;
+   
+    
+}
+
+        
+h2.recipeTitle {
+
+    margin: 18px;
+    font-size: 24px;
+}
+  
+    
+    
+    
+        @media (max-width:600px){
+
+            .searchContainer {
+
+                
+       grid-template-columns: 200px;
+      
+            }
+
+            .card {
+
+                margin-top: 20px;
+            }
+      
+
+            h2 {
+                font-size: 15px;
+            }
+    
+       
+            
+            }
+
+                    
+            img#aboutImg {
+
+              
+                float: none;
+                margin: 20px;
+                margin: 0 auto;
+                display: flex;
+                width: 300px;
+                margin-bottom: 40px;
+               
+                    
+            }
+
+            p.aboutP {
+
+                min-width: 300px;
+                margin: 0 auto;
+                
+            }
+            
+            
+            a.card {
+                width: 100%;
+            }
+            
+ 
+       
+    }
+
+
+    
+
+    
+       
+        @media (min-width:600px){
+
+            a.card {
+                width: 80%;
+            }
+    
+    
+       
+            
+          
+
+
+    
+ 
+
+
+}
+
+
+@media (max-width:400px)
+{
+
+   
+  h1.welcome {
+
+    padding: 50px;
+  }
+
+  p.welcome {
+
+    padding-bottom: 100px;
+  }
+
+    body {
+
+      display:grid;
+    
+    }
+  
+}
+

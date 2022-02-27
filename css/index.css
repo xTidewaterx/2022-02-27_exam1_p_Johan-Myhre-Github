@@ -1,0 +1,231 @@
+
+*
+ {   
+     margin: 0;
+
+ }
+.container3 {
+
+
+  
+    justify-content: center;
+    margin-top: 4vh;
+    grid-template-columns: 160px 160px;
+    display: grid;
+    column-gap: 5vw;
+   
+}
+
+.profile {
+
+    background-color: rgb(238, 220, 220);
+    border: 5px solid rgb(207, 158, 158);
+    border-radius: 5%;
+    text-align: center;
+    margin-bottom: 4vh;
+    padding: 8px;
+   
+    
+}
+
+#roundedProfile {
+
+    border-radius: 170%;
+    height: 100px;
+    width: 100px;
+ 
+     margin: 0 auto;
+     display: flex;
+     padding: 10px;
+}
+
+b {
+    text-align: justify;
+
+}
+
+#text {
+
+    text-align: center;
+}
+
+
+
+h2.searchIndex:hover {
+
+    background-color: rgb(67, 102, 69);
+    color: rgb(255, 255, 255);
+}
+
+.cardContainer {
+        
+
+    height: 880px;
+  column-gap: 5vw;
+  justify-items: center;
+  justify-content: center;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 50%, transparent 140%);
+  margin-bottom: 150px;
+  position: relative;
+  padding: 15px;
+
+  /*here we mask the image of the entire div , we go from bottom with black to transparent, bottom has 50% to 100%transparent*/
+
+
+
+}
+
+
+
+
+
+h2.searchIndex {
+
+    font-size: 30px;
+    color: rgb(248, 229, 229);
+    
+}
+
+
+
+
+
+button.showMore {
+
+    height: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(223, 235, 230);
+    border-radius: 5%;
+    text-align: center;
+    line-height: 40px;
+    color: rgb(27, 34, 31);
+  
+}
+
+
+
+h2.suggestions {
+
+  
+    background-color: #dedabd;
+padding: 40px;
+
+}
+
+
+
+
+ 
+h2.recipeIndex {
+
+    font-size: 30px;
+   
+    word-break:normal;
+    display: block;
+
+    /*with this we see that the minimum is written first, to stop the vw to demolish our heading into nothing
+    a minium is required for the heading to sruvive when the width fothe viewport disspaears with vw
+    different units for expressing length, css proprties relative to 1% of the widfdth of the viewport vw, relative width of viewportt*/
+ 
+    
+
+    margin: 4vh;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    background-color: #e9e3c2;
+    border-radius: 50%;
+    max-width: 300px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 35%;
+    margin-right: 35%;
+   
+  
+ 
+}
+
+.loading {
+
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+    border-radius: 50%;
+    display: flexbox;
+    line-height: 150px;
+    
+ 
+
+}
+
+
+.searchRecipes:hover {
+
+  
+
+    box-shadow: 0px 5px 0px 20px rgb(224, 222, 182);
+    z-index: 10000;
+    position: sticky;
+ 
+}
+
+
+h2.searchIndex {
+
+    background-color: #1e4935;
+    padding: 100px;
+}
+
+
+h1.welcome {
+
+    background-color: #e3f0ea;
+    text-align: center;
+    padding: 50px;
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+p.welcome {
+    background-color: #e3f0ea;
+    text-align: center;
+
+    
+    max-width: none;
+padding: 20px;
+padding-bottom: 150px;
+}
+
+
+h2.recipeTitle {
+
+    margin: 8px;
+}
+
+
+.recipe-imagesFront {
+
+    height: 400px;
+}
+
+.endOfMain {
+
+    height: 7px;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    margin-top:40px;
+    margin-bottom: 40px;
+    background-color: #1e4935;
+   
+}

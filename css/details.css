@@ -1,0 +1,68 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.detailContainer {
+
+    display: flexbox;
+    margin: 0 auto;
+
+   
+}
+
+p {
+   
+    margin: 0 auto;
+   
+    background-color: rgb(241, 241, 241);
+    padding: 20px;
+    line-height: 30px;
+    width: 50%;
+    min-width: 300px;
+   
+
+}
+
+h1 {
+
+    color: black;
+    font-size: 30px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+      padding: 20px;
+}
+    
+  
+
+
+img.recipeImage {
+
+ 
+ 
+    
+    color: rgb(22, 83, 22);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+
+
+}
+
+
+
+.recipe {
+
+    background-color: rgb(190, 233, 233);
+ 
+    border-radius: 30px;
+   
+    display: flexbox;
+    margin: 0 auto;
+    height: 400px;
+     width: 50%;
+     min-width: 300px;
+     position: relative;
+     margin-top: 40px;
+}
