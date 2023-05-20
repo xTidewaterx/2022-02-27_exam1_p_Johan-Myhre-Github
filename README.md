@@ -1,6 +1,7 @@
 # Your project title
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image__project3](https://github.com/xTidewaterx/2022-02-27_exam1_p_Johan-Myhre-Github/assets/79268288/a276b79c-5087-437c-b7a0-1c2e15d6880e)
+
 
 A simple overview of the use/purpose of the project.
 
