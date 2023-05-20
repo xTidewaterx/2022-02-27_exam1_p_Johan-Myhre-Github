@@ -20,7 +20,7 @@ You can add some bullet points if you'd like to:
 You can list a the tech stack that you've used over here
 - [HTML]([https://developer.mozilla.org/en-US/docs/Web/HTML])
 - [JavaScript]([https://developer.mozilla.org/en-US/docs/Web/JavaScript])
-- [CSS]([https://developer.mozilla.org/en-US/docs/Web/CSShtml docs])
+- [CSS]([https://developer.mozilla.org/en-US/docs/Web/CSShtml])
 
 ## Getting Started
 
