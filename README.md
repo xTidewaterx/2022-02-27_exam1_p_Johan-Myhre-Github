@@ -47,7 +47,7 @@ Here is where you detail how to run the app. It typically involves the commands 
 To run the app, run the following commands:
 
 ```bash
-npm run start
+to run an HTML file: open it in your Web browser of choice.
 ```
 
 ## Contributing
