@@ -3,9 +3,9 @@
 ![image__project3](https://github.com/xTidewaterx/2022-02-27_exam1_p_Johan-Myhre-Github/assets/79268288/a276b79c-5087-437c-b7a0-1c2e15d6880e)
 
 
-A simple overview of the use/purpose of the project.
 
-## Description A website that helps you find the recipe for you, with information about each one. 
+
+##  A website that helps you find the recipe for you, with information about each one. 
 
 Website has different functionality to help you find the recipe you want, with information about each recipe to find something that has the ingredients you need. API calls request information about different recipes. Use the search functionality to find exactly the recipe you want, the one that fits you.
 
