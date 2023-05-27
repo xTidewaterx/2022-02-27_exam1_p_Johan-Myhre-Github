@@ -5,9 +5,10 @@
 
 A simple overview of the use/purpose of the project.
 
-## Description
+## Description A website that helps you find the recipe for you, with information about each one. 
 
-Add a more detailed description of what your project entails and set out to do.
+Website has different functionality to help you find the recipe you want, with information about each recipe to find something that has the ingredients you need. API calls request information about different recipes. Use the search functionality to find exactly the recipe you want, the one that fits you.
+
 
 You can add some bullet points if you'd like to:
 
