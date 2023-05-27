@@ -55,8 +55,8 @@ to run an HTML file: open it in your Web browser of choice.
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
-[Email](johan12ab@gmail.com)
+
+[Github](https://github.com/xTidewaterx)
 
 
