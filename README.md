@@ -10,11 +10,11 @@
 Website has different functionality to help you find the recipe you want, with information about each recipe to find something that has the ingredients you need. API calls request information about different recipes. Use the search functionality to find exactly the recipe you want, the one that fits you.
 
 
-You can add some bullet points if you'd like to:
+Project Includes:
 
-- List item 1
-- List item 2
-- List item 3
+- Search Function
+- List of Results
+- Suggestions
 
 ## Built With
 
