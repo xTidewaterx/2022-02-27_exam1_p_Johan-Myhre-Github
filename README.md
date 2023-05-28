@@ -7,7 +7,7 @@
 
 ##  A website that helps you find the recipe for you, with information about each one. 
 
-Website has different functionality to help you find the recipe you want, with information about each recipe to find something that has the ingredients you need. API calls request information about different recipes. Use the search functionality to find exactly the recipe you want, the one that fits you.
+Website has different functionality to help you find the recipe you want, with information about each recipe to find something that has the ingredients you need. API calls request information about different recipes. Use the search functionality to find exactly the recipe you want, the one that fits you. It is important to offer something that is available to everybody. 
 
 
 Project Includes:
@@ -48,7 +48,7 @@ Here is where you detail how to run the app. It typically involves the commands 
 To run the app, run the following commands:
 
 ```bash
-to run an HTML file: open it in your Web browser of choice.
+to run an HTML file: open it in your Web browser of choice. You can use VSC with the "Go Live" extension
 ```
 
 
